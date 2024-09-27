@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="fundo-passo0.png" alt="">
+            <p>Certa manhã um detetive recebeu uma ligação lhe falando que precisam da ajuda dele, pois o DIAMANTE DA RAINHA havia sido roubado </p>
+            <button class="btn-proximo" data-proximo="1">Ir ao local investigar</button>
+            <button class="btn-proximo" data-proximo="2">Fazer algumas ligações</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Chegando ao local, você encontra a rainha desesperada, ela lhe conta o que aconteceu e te leva no cofre </p>
+            <button class="btn-proximo" data-proximo="3">Procurar pista dentro do cofre</button>
+            <button class="btn-proximo" data-proximo="4">Vasculhar o lado de fora</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Fez umas ligações para seus contatos, a CIA lhe informou que o diamante estva na cidade ainda e que era um grupo conhecido como Comando Classe A</p>
+            <button class="btn-proximo" data-proximo="5">Ir ao palácio</button>
+            <button class="btn-proximo" data-proximo="6">Ir falar com o seu contato no comando  </button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você encontrou um símbolo pichado na parede e tirou uma foto</p>
+            <button class="btn-proximo" data-proximo="7">Jogar a foto no banco de dados</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Você decide deixar quieto e parar a investigação</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Descobre que o símbolo corresponde a marca que o Comando Classe A deixa </p>
+            <button class="btn-proximo" data-proximo="7">Ligar para o centro de localização para ativar o chip que esta cravejado no diamante</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>A localização te leva para um beco sem saída</p>
+            <button class="btn-proximo" data-proximo="8">Olhar em volta e procurar algo anormal</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Você encontra duas portas com a fechadura forçada</p>
+            <button class="btn-proximo" data-proximo="9">Escolher a porta da esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Escolher a porta da direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você hesita, porque está com cara de emboscada</p>
+            <button class="btn-proximo" data-proximo="7">Acaba por seguir em frente</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>A porta a esquerda te leva para uma sala parecida com um escritório </p>
+            <button class="btn-proximo" data-proximo="11">Explorar a sala</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>A porta a direita te leva para uma sala vazia </p>
+            <button class="btn-proximo" data-proximo="12">Voltar e ir para outra sala </button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>Você descobre uma passagem secreta atrás de uma estante</p>
+            <button> Prosseguir</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Após a descoberta da passagem secreta, você chamou reforço, ao entrar á uma troca de tiros, porém você sai vitorioso</p>
+            <button class="btn-proximo" data-proximo="11">Prender os bandidos e devolver o diamante da Rainha</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
